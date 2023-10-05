@@ -1,0 +1,342 @@
+
+.app-title {
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    padding: 0.6rem 0 0 100px;
+    border-bottom: 1px solid #d1d4d7;
+    text-transform: capitalize;
+}
+.fab-title {
+    width: 340px;
+    color: #0e2547;
+    font-size: 1rem;
+    position: absolute;
+    right: 0px;
+    top: 16px;
+    text-align: center;
+}
+
+.fab-circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 900;
+    right: 140px;
+    top: 40px;
+    padding: 12.5px;
+}
+.bg-secondary {
+    background-color: #ff6f0f !important;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+main.message[data-v-34f4f368] {
+    text-transform: uppercase;
+    margin: 0px -15px 1px -15px;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.mr-4, .mx-4 {
+    margin-right: 1.5rem !important;
+}
+
+
+.badge-info {
+    color: #151b1e;
+    background-color:#0e2547;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.switch.switch-3d {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 24px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+label[data-v-34f4f368] {
+    display: inline-block;
+    padding-left: 5px;
+    margin-bottom: 0rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+
+.switch.switch-3d .switch-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+input, button, select, optgroup, textarea {
+    margin: 3px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+.switch-pill .switch-label, .switch.switch-3d .switch-label, .switch-pill .switch-handle, .switch.switch-3d .switch-handle {
+    border-radius: 50em !important;
+}
+
+.switch.switch-3d .switch-label {
+    position: relative;
+    display: block;
+    height: inherit;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #f8f9fa;
+    border: 1px solid #d1d4d7;
+    border-radius: 2px;
+    transition: opacity background .15s ease-out;
+}
+
+.switch.switch-3d .switch-handle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border: 1px solid #d1d4d7;
+    border-radius: 1px;
+    transition: left .15s ease-out;
+    border: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.import-export[data-v-34f4f368] {
+    float: right !important;
+    margin-right: 10px;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.import-export-button[data-v-34f4f368] {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+}
+
+.btn-group > .btn, .btn-group-vertical > .btn {
+    position: relative;
+    flex: 1 1 auto;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.import-export[data-v-34f4f368] {
+    float: right !important;
+    margin-right: 10px;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.import-export-button[data-v-34f4f368] {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+}
+
+.btn-group > .btn, .btn-group-vertical > .btn {
+    position: relative;
+    flex: 1 1 auto;
+}
+.import-export[data-v-34f4f368] {
+    float: right !important;
+    margin-right: 10px;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-inverse {
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #0e2547 !important;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.fa-download:before {
+    content: "\F019";
+}
+
+.right-side-container {
+    background-color: #f2f2f2;
+    padding: 84px;
+    margin: 14px 8px 14px;
+    border-radius: 0px;
+    float: left;
+    padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  }
+  .card-header {
+    /* Apply styling to the card header */
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content {
+    /* Adjust spacing between icon and text */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .left {
+    position: relative; 
+    background-color: #f2f2f2;
+    padding: 491px;
+    margin: 14px 25px 14px;
+    border-radius: 0px;
+    float: right;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .inside-top-container {
+    position: absolute; 
+    top: -8px;
+    left: -2px;
+    width: 100%; 
+    background-color: #e0dcdc;
+    padding: 16px;
+    margin: 9px 2px 10px;
+    border-radius: 0px;
+    float: right;
+    z-index: 1; 
+  }
+  .map-text{
+    padding: 10px;
+  }
+  .map-header {
+    /* Apply styling to the header */
+    text-align: center; /* Center align the header text */
+    background-color:  #f2f2f2; /* Add a background color */
+    padding: 10px; /* Add padding to the header */
+  }
+  
+  .canvas-container {
+    position: relative;
+    width: 795px;
+    height: 1297.7px;
+    padding: 0;
+    margin: -346px;
+    border: 0;
+    background-color: #e0dcdc;
+  }
+  .canvas-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: white; /* Optional: Add a background color to the canvas container */
+  }
+  .canvas-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: red;
+  }
+  .canvas-instructions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  .action-bar-row {
+    display: inline-block;
+    margin: 6px;
+    text-align: center;
+}
+
+.icon-button {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons */
+  }
+  
+
+  
